@@ -17,3 +17,9 @@ puts "\n\nPre order"
 bst.pre_order(bst.root)
 puts "\n\nPost order"
 bst.post_order(bst.root)
+puts "\n\nMinimum value"
+puts bst.get_min
+puts "\n\nMaximum value"
+puts bst.get_max
+puts "\n\nFind node with data 3"
+puts bst.find(3).data
